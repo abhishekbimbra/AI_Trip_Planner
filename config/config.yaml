@@ -1,0 +1,15 @@
+llm :
+  groq:
+    provider: "groq"
+    model_name: "qwen/qwen3-32b"
+
+    # openai:
+    #   provider: "openai"
+    #   model_name: "o4-mini"
+
+    gemini_flash:
+      provider: "google"
+      model_name: "gemini-2.5-flash"
+      temperature: 0.3
+      max_tokens: 1024
+    
